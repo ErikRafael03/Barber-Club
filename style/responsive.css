@@ -1,0 +1,175 @@
+@media screen and (max-width: 1260px) {
+    #fundo-inicio {
+        height: 55%;
+    }
+}
+
+@media screen and (max-width: 1187px) {
+    .txt-inicio p {
+        font-size: 35pt;
+    }
+
+    #img-inicio {
+        margin-left: 14%;
+        z-index: 1;
+        display: inline;
+    }
+
+    #fundo-inicio {
+        margin-left: 51%;
+    }
+
+    /* .icons-contatos{
+        margin-left: -40%;
+    } */
+}
+
+@media screen and (max-width: 1154px) {
+    .nav-links {
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 1063px) {
+    .nav-desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .subtitle{
+        font-size: 12pt;
+        margin: 0 20% 0 20%;
+    }
+/* INICIO */
+    .inicio{
+        flex-direction: column-reverse;
+    }
+    #img-inicio {
+        width: 75%;
+        height: 40%;
+        margin-left: 13%;
+    }
+    #fundo-inicio {
+        width: 42%;
+        margin-left: 50%;
+        margin-top: -100vh;
+        display: none;
+    }
+    .txt-inicio {
+        margin-left: 13%;
+        margin-top: 5%;
+        width: 50%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .txt-inicio p {
+        font-size: 30pt;
+    }
+/* INICIO */
+
+/* Serviço */
+    .cards-servicos {
+        flex-direction: column;
+        margin-left: 13%;
+    }
+
+    #card1,
+    #card2,
+    #card3 {
+        width: 85%;
+        margin-bottom: 3%;
+
+    }
+
+    #card2,
+    #card3 {
+        margin-left: 0%;
+    }
+/* Serviço */
+
+/* PROFISSIONAIS */
+    .cards-profissionais{
+        flex-direction: column;
+        margin-left: 13%;
+    }
+    #card-P1, #card-P2, #card-P3{
+        width: 85%;
+        height: 80%;
+        margin-bottom: 2%;
+    }
+    #card-P2, #card-P3{
+        margin-left: 0%;
+    }
+/* PROFISSIONAIS */
+
+/* GALERIA */
+.fotos{
+    margin-left: 13%;
+}
+.fotos img{
+    width: 85%;
+    margin-left: 0%;
+    margin-bottom: 2%;
+}
+/* GALERIA */
+
+/* FOOTER */
+.col2-footer{
+    margin-left: 30%;
+    width: 20%;
+}
+/* FOOTER */
+
+}
+@media screen and (max-width: 770px) {
+/*  */
+.txt-inicio {
+    width: 79%;
+}
+.txt-inicio p {
+    font-size: 28pt;
+}
+/*  */
+/* CONTATO */
+.section-contato{
+    flex-direction: column;
+}
+.contato{
+    margin-top: 150px;
+    margin-left: 13%;
+    margin-bottom: 0%;
+
+}
+#title-contato{
+    font-size: 25pt;
+    font-weight: 600;
+    margin-right: 10%;
+}
+#txt-contato{
+    font-size: 12pt;
+    margin: 0 12% 0 0%;
+}
+.icons-contatos{
+    margin-top: 50px;
+    margin-bottom: 5%;
+    margin-left: 13%;
+    width: 80%;
+}
+/* CONTATO */
+
+/* FOOTER */
+footer{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.col1-footer{
+    margin-left: 0%;
+}
+.col2-footer{
+    margin-left: 38%;
+    width: 25%;
+}
+
+/* FOOTER */
+}

@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #e9eaee;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #724212;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.section-inicio {
+    min-height: 100vh;
+    border-bottom: solid 1px #8b521852;
+}
+section{
+    border-bottom: solid 1px #8b521852;
+ 
+}
+/* ----------MENU DESKTOP----------- */
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-desktop nav {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    padding: 10px;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.226);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-desktop nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 4%;
+    margin-top: -12px;
+}
+
+.nav-desktop nav a:hover {
+    color: #724212;
+}
+
+.nav-links {
+    width: 45%;
+    margin-top: 23px;
+    margin-left: 40%;
+}
+
+.logo {
+    width: 200px;
+    height: 70px;
+    margin-left: 3%;
+}
+
+/* ----------MENU DESKTOP----------- */
+
+/* Menu MOBILE */
+.mobile {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.226);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: none;
+}
+.logoMobile {
+    width: 170px;
+    margin-left: 5%;
+    margin-top: -1%;
+}
+
+.btn-abir-menu {
+    margin-right: 20px;
+    text-align: right;
+    margin-top: -65px;
+}
+
+.btn-abir-menu i {
+    color:#724212;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.menu-mobile {
+    background-color: #724212;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999999;
+    width: 0%;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.menu-mobile.abrir-menu {
+    width: 60%;
+}
+
+.menu-mobile .btn-fechar {
+    padding: 20px 5%;
+}
+
+.menu-mobile .btn-fechar i {
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menu-mobile nav ul {
+    text-align: right;
+    list-style-type: none;
+}
+
+.menu-mobile nav ul li a {
+    color: #ffffff;
+    font-size: 14pt;
+    padding: 10px 8%;
+    font-weight: 200;
+    display: block;
+    text-decoration: none;
+}
+
+.menu-mobile nav ul li a:hover {
+    color: #000000
+}
+
+/* Menu MOBILE */
+
+/* ----------INICIO----------- */
+.inicio {
+    display: flex;
+    margin-top: 150px;
+}
+
+.txt-inicio {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt-inicio p {
+    font-size: 38pt;
+    color: black;
+}
+
+.txt-inicio span {
+    color: #724212;
+}
+
+#btn-inicio {
+    background-color: #8b5218;
+    border: none;
+    padding: 10px 20px;
+    transition: 0.5s;
+    margin-top: 1%;
+}
+
+#btn-inicio:hover {
+    background-color: #724212;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+#img-inicio {
+    width: 42%;
+    height: 40%;
+    border-radius: 10px;
+    margin-left: 16%;
+    z-index: 1;
+    display: inline;
+}
+
+#fundo-inicio {
+    background-color: #724212;
+    padding: 20px;
+    width: 42%;
+    height: 60%;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 0;
+    margin-left: 53%;
+    margin-top: -20px;
+}
+
+/* ----------INICIO----------- */
+.title {
+    font-size: 25pt;
+    font-weight: 600;
+}
+.subtitle{
+    font-size: 12pt;
+    margin: 0 30% 0 30%;
+}
+/* ----------SERVICOS----------- */
+.servicos {
+    margin-top: 150px;
+}
+
+.servicos p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.servicos span{
+    color:#724212;
+}
+
+.cards-servicos{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#card1, #card2, #card3{
+    width: 25%;
+    border: none;
+    border-bottom: solid 3px #8b5218;
+    border-radius: 0%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.267);
+    transition: 1s;
+    padding: 10px;
+}
+#card2, #card3{
+    margin-left: 2%;
+}
+.icons-servicos{
+    color: #8b5218;
+    font-size: 45pt;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.title-card-servico{
+    font-size: 20pt;
+    font-weight: 600;
+    color: black;
+    margin-top: 5%;
+}
+/* ----------SERVICOS----------- */
+
+/* ----------PROFISSIONAIS----------- */
+.profissionais{
+    margin-top: 150px;
+}
+
+.profissionais p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.profissionais span{
+    color:#724212;
+}
+.cards-profissionais{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title-card{
+   margin-top: 120%;
+}
+.title-card-profissionais{
+    color: white;
+    font-size: 20pt;
+    font-weight: 600;
+}
+#card-P1, #card-P2, #card-P3{
+    width: 25%;
+    height: 450px;
+    border: none;
+    border-bottom: solid 4px #8b5218;
+    border-radius: 0%;
+    padding: 10px;
+    text-align: left;
+}
+#card-P2, #card-P3{
+    margin-left: 2%;
+}
+#card-P1{
+    background-image: url(../assets/P1.avif);
+    background-position: center; /* centraliza a imagem */
+    background-size:100%; /* ajusta o tamanho da imagem para cobrir todo o card */
+    background-repeat: no-repeat;
+}
+#card-P2{
+    background-image: url(../assets/P2.avif);
+    background-position: center; /* centraliza a imagem */
+    background-size:100%; /* ajusta o tamanho da imagem para cobrir todo o card */
+    background-repeat: no-repeat;
+}
+#card-P3{
+    background-image: url(../assets/P3.avif);
+    background-position: center; /* centraliza a imagem */
+    background-size:100%; /* ajusta o tamanho da imagem para cobrir todo o card */
+    background-repeat: no-repeat;
+}
+/* ----------PROFISSIONAIS----------- */
+
+/* ----------DESTAQUES----------- */
+.destaques{
+    margin-top: 150px;
+}
+
+.destaques p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.destaques span{
+    color:#724212;
+}
+.fotos{
+    margin-left: 12%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.fotos img{
+    width: 20%;
+    margin-left: 1%;
+}
+/* ----------DESTAQUES----------- */
+
+/* ----------CONTATO----------- */
+.section-contato{
+    background-color: #f0f0f081;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contato{
+    margin-top: 150px;
+    margin-left: 11%;
+    margin-bottom: 10%;
+
+}
+.contato p {
+    text-align: left;
+    color: black;
+}
+.contato span{
+    color:#724212;
+}
+.contato i {
+    font-size: 13pt;
+}
+#title-contato{
+    font-size: 25pt;
+    font-weight: 600;
+    margin-right: 35%;
+}
+#txt-contato{
+    font-size: 12pt;
+    margin: 0 60% 0 0%;
+}
+#btn-contato{
+    background-color: #8b5218;
+    border: none;
+    padding: 10px 25px;
+    transition: 0.5s;
+    margin-top: 3%;
+}
+#btn-contato:hover {
+    background-color: #724212;
+    padding: 10px 35px;
+    transition: 0.5s;
+}
+.icons-contatos{
+    margin-top: 160px;
+    margin-left: 1%;
+    width: 80%;
+}
+.icons-contatos i{
+    color: #724212;
+    font-size: 15pt;
+}
+/* ----------CONTATO----------- */
+
+/* ----------FOOTER----------- */
+footer{
+    background-color: #8b5218;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+footer img{
+    width: 220px;
+    height: 60px;
+    margin-bottom: 5%;
+}
+.col1-footer{
+    margin-left: 9%;
+}
+footer a{
+    text-decoration: none;
+    color: #000000;
+}
+footer a:hover{
+    color: #ffffff;
+}
+.col2-footer{
+    margin-left: 52%;
+    width: 10%;
+}
+.col2-footer i{
+    margin-right: 4%;
+    margin-top: 18px;
+    font-size: 19pt;
+}
+.col2-footer i:hover{
+    color: #ffffff;
+}
+/* ----------FOOTER----------- */
